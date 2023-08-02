@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Essa página é um formulário com validação. Ao clicar para enviar o formulário, caso algum campo não esteja preenchido, a borda do input ficará vermelha e uma mensagem 'campo obrigatório' será exibida abaixo do campo que não foi preenchido.">
+
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>DevQuest | Formulário</title>
+</head>
+
+<body>
+    <main class="conteudo">
+        <section class="texto">
+            <h1 class="titulo">Ficou com dúvida? Nos mande uma mensagem!</h1>
+
+            <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+
+        <section class="formulario">
+            <form action="index.html" method="post" id="form">
+                <input type="text" placeholder="Nome completo *" class="input nome" id="nome">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <input type="email" placeholder="Email *" class="input" id="email">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <input type="tel" placeholder="Telefone *" class="input" id="telefone">
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <textarea name="mensagem" placeholder="Mensagem *" class="input mensagem" id="mensagem"></textarea>
+                <p class="obrigatorio">campo obrigatório</p>
+
+                <p class="campos-obrigatorios">*campos obrigatórios</p>
+
+                <input type="submit" value="Enviar" class="botao-enviar">
+            </form>
+        </section>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
