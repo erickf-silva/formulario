@@ -22,7 +22,7 @@ Este formulario é um exercício do curso DevQuest, que será enviado para corre
 
 ## Links
 
-- [Formulário](https://erickf-silva.github.io/slider-de-imagens/)
+- [Formulário](https://erickf-silva.github.io/formulario/)
 
 ## Tecnologias utilizadas
 
